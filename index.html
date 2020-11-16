@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+      <title>VUE-HELLO</title>
+   </head>
+   <body>
+
+
+      <div id="container">
+         <h1>Messaggio :</h1>
+         <h1 v-bind:class="classi">{{msg}}</h1>
+         <button id="btn"@click="changeColor">Cliccami e Ricliccami!</button>
+         <img v-bind:src="'https://spaceplace.nasa.gov/templates/featured/sun/' + avatar"/>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+      <!-- link js -->
+      <script type="text/javascript" src="js/script.js"></script>
+   </body>
+</html>
