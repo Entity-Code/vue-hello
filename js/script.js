@@ -8,7 +8,7 @@ var container = new Vue ({
   el: '#container',
   data: {
       msg: 'Ciao, sono un messaggio inserito dal data di Vue ! Non ci credi? allora clicca il bottone, se mento cambierà colore anche "Messaggio"!',
-      avatar: 'sunburn300.png',
+      avatar: 'img/arcobaleno.jpg',
       classi: ' '
    },
    methods: {
